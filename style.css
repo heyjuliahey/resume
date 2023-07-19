@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: Ubuntu, serif;
+    font-weight: 400;
+    background-color: #FFFAA0;
+    color: #11110e;
+}
+
+.hobbies, .table {
+    border-radius: 20px;
+    background-color: #ece6ff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px #ece6ff;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #ece6ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+a {
+    text-decoration: none;
+    color: violet;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.caption {
+    font-size: 20px;
+}
+
+.table td {
+     text-align: center;
+     padding-bottom: 10px;
+}
+
+.table td:nth-child(even){
+    background-color: #FFFAA0;
+}
+
+.hobbies ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.hobbies ul {
+    margin: 0;
+    padding: 0;
+}
+
+.form h4{
+    text-align: center;
+}
+
+.form label {
+    display: block;
+}
+
+.form input, 
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    
+    border-bottom: 1px solid #ccc;
+    color:purple;
+    padding: 15px 0 10px;
+    outline: none;
+}
+
+.input-name, .input-email, 
+.form textarea {
+    background: transparent;
+}
+
+.form-row .form-group {
+    /*display: inline-block;*/
+    margin-right: 10px;
+    /*width: calc(50% - 20px);*/
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 459px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 459px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
